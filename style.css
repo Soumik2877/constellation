@@ -1,0 +1,23 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  
+  }
+  canvas {
+    display: block;
+  }
+  #bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100vw;
+    z-index: -2;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 1; /* optional: dim video for readability */
+  }
